@@ -9,7 +9,7 @@ Tracks issues for access requests to the environment that cannot be completed wi
 Three parties are involved in this request - the person requesting access, an approver, and an administrator who can grant access.
 
 ## Process for people requesting access
-1. Create a GitHub issue in this repository for each user that needs access. Include out of band contact information and a justification.
+1. [Create a GitHub issue](https://github.com/CCI-MOC/access-requests/issues) in this repository for each user that needs access. Include out of band contact information and a justification.
 2. Someone who is able to approve the request will be notified.
 3. They will comment on the ticket granting their approval.
 4. An access administrator be notified.
