@@ -1,0 +1,43 @@
+name: Access Request
+description: Request access to the MOC secure environment
+title: "Access to MOC secure environment"
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to request access to the MOC secure environment.
+  - type: input
+    id: fullname
+    attributes:
+      label: Full name
+      description: Please enter your full name
+    validations:
+      required: true
+  - type: input
+    id: username
+    attributes:
+      label: Preferred username
+      description: Your preferred username (if this is not set we will use your github username)
+    validations:
+      required: true
+  - type: input
+    id: email
+    attributes:
+      label: Email address
+      description: An email address at which we can contact you
+    validations:
+      required: true
+  - type: textarea
+    id: sshkey
+    attributes:
+      label: Public SSH key
+      description: Your public ssh key. You will authenticate to the bastion host with the corresponding private key.
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason for access
+      description: Please enter a brief description of why you need access to this environment.
